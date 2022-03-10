@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("이제 시작입니다.")
-            .padding()
+        VStack(alignment: .center) {
+            CircleImage()
+            Text("이제 시작입니다.")
+                .font(.title)
+                .foregroundColor(.green)
+            Text("더 나은 내일을 향해")
+                .font(.subheadline)
+        }
     }
 }
 
