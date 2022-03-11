@@ -9,11 +9,7 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Image("tempImage")
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(width: 300, height: 300)
-            .offset(y: -40)
+        Image("turtlerock")
             .clipShape(Circle())
             .overlay{
                 Circle().stroke(.white, lineWidth: 2)
