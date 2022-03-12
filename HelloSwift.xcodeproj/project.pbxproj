@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8013F38A27DB8465000C8BD6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013F38927DB8465000C8BD6 /* MapView.swift */; };
+		80504CBD27DC60100028A4B5 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 80504CBC27DC60100028A4B5 /* landmarkData.json */; };
+		80504CBF27DC60400028A4B5 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80504CBE27DC60400028A4B5 /* Landmark.swift */; };
+		80504CC127DC62460028A4B5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80504CC027DC62460028A4B5 /* ModelData.swift */; };
 		807D3E0A27D9EFA4001E0CEB /* HelloSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D3E0927D9EFA4001E0CEB /* HelloSwiftApp.swift */; };
 		807D3E0C27D9EFA4001E0CEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D3E0B27D9EFA4001E0CEB /* ContentView.swift */; };
 		807D3E0E27D9EFA5001E0CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807D3E0D27D9EFA5001E0CEB /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		8013F38927DB8465000C8BD6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		80504CBC27DC60100028A4B5 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		80504CBE27DC60400028A4B5 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		80504CC027DC62460028A4B5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		807D3E0627D9EFA4001E0CEB /* HelloSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807D3E0927D9EFA4001E0CEB /* HelloSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftApp.swift; sourceTree = "<group>"; };
 		807D3E0B27D9EFA4001E0CEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80504CC227DC63740028A4B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80504CBC27DC60100028A4B5 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80504CC327DC63B00028A4B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				807D3E0B27D9EFA4001E0CEB /* ContentView.swift */,
+				807D3E1727D9F330001E0CEB /* CircleImage.swift */,
+				8013F38927DB8465000C8BD6 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80504CC427DC63BD0028A4B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80504CBE27DC60400028A4B5 /* Landmark.swift */,
+				80504CC027DC62460028A4B5 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		807D3DFD27D9EFA4001E0CEB = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				807D3E0927D9EFA4001E0CEB /* HelloSwiftApp.swift */,
-				807D3E0B27D9EFA4001E0CEB /* ContentView.swift */,
+				80504CC327DC63B00028A4B5 /* Views */,
 				807D3E0D27D9EFA5001E0CEB /* Assets.xcassets */,
 				807D3E0F27D9EFA5001E0CEB /* Preview Content */,
-				807D3E1727D9F330001E0CEB /* CircleImage.swift */,
-				8013F38927DB8465000C8BD6 /* MapView.swift */,
+				80504CC427DC63BD0028A4B5 /* Model */,
+				80504CC227DC63740028A4B5 /* Resources */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -133,6 +166,7 @@
 			files = (
 				807D3E1127D9EFA5001E0CEB /* Preview Assets.xcassets in Resources */,
 				807D3E0E27D9EFA5001E0CEB /* Assets.xcassets in Resources */,
+				80504CBD27DC60100028A4B5 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +181,8 @@
 				8013F38A27DB8465000C8BD6 /* MapView.swift in Sources */,
 				807D3E0A27D9EFA4001E0CEB /* HelloSwiftApp.swift in Sources */,
 				807D3E1827D9F330001E0CEB /* CircleImage.swift in Sources */,
+				80504CBF27DC60400028A4B5 /* Landmark.swift in Sources */,
+				80504CC127DC62460028A4B5 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
